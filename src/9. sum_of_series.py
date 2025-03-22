@@ -12,3 +12,9 @@ For example:
 
 n: int= int(input("Enter the number of terms wanted: "))
 d: str= input("Enter the series wanted: ")
+add: int= 0
+
+for i in range(1, n+1):
+    add+= int(d * i)
+
+print(f"{n}th number of the series is {add}.")
